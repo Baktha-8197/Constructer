@@ -5,6 +5,12 @@ public Company() {
 	this("Chennai");
     System.out.println("Company Name is Tata Consultancy Service");
 }
+public void add() {
+	System.out.println("add");
+}
+private void subtract() {
+System.out.println("Subtract");
+}
 public Company(String companyLocation) {
 	this(1);
 	System.out.println("Company location is "+companyLocation);
